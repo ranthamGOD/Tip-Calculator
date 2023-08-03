@@ -22,11 +22,11 @@ export function TipCalculator() {
       <BillInput bill={bill} onSetBill={setBill} />
 
       <SelectPercentage Percentage={Percentage1} onSelect={setPercentage1}>
-        How did you like the service?
+        How did you like the service ?
       </SelectPercentage>
 
       <SelectPercentage Percentage={Percentage2} onSelect={setPercentage2}>
-        How did your Friend like the Service?
+        How did your Friend like the Service ?
       </SelectPercentage>
 
       {bill > 0 && (
