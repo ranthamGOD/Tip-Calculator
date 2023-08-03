@@ -1,7 +1,11 @@
+import { Typography } from "@mui/material";
+
 export function BillInput({ bill, onSetBill }) {
   return (
     <div>
-      <label>How much was the bill? </label>
+      <Typography variant="label" component={"label"}>
+        How much was the bill?
+      </Typography>
 
       <input
         type="text"

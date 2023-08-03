@@ -3,6 +3,7 @@ import { Reset } from "./Reset";
 import { Output } from "./Output";
 import { SelectPercentage } from "./SelectPercentage";
 import { BillInput } from "./BillInput";
+import { Typography } from "@mui/material";
 
 export function TipCalculator() {
   const [bill, setBill] = useState("");

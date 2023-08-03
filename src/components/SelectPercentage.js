@@ -1,7 +1,10 @@
+import { Typography } from "@mui/material";
+
 export function SelectPercentage({ children, Percentage, onSelect }) {
   return (
     <div>
-      <label>{children}</label>
+      <Typography component={"label"}>{children}</Typography>
+
       <select
         value={Percentage}
         onChange={(e) => onSelect(Number(e.target.value))}
